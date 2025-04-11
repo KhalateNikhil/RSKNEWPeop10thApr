@@ -30,6 +30,12 @@ public class CreateAccountPageTest extends BaseClass{
 		System.out.println("Home page test cases added");
 	}
 	
+	@Test
+	public void PIMPageTestCase()
+	{
+		System.out.println("PIM page test case added");
+	}
+	
 	@AfterTest
 	public void teaeDown()
 	{
