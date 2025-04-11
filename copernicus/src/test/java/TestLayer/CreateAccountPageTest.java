@@ -1,5 +1,6 @@
 package TestLayer;
 
+import org.apache.poi.util.SystemOutLogger;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -22,6 +23,11 @@ public class CreateAccountPageTest extends BaseClass{
 		 createaccountpage= new CreateAccountPage();
 		 createaccountpage.createnewuserFunctionality("nk@gmail.com", "Rushi", "Khalate", "India", "Public sector/Governmental", "SoftTech");
 		
+	}
+	@Test
+	public void HomePageTestCase()
+	{
+		System.out.println("Home page test cases added");
 	}
 	
 	@AfterTest
